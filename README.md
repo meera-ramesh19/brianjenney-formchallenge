@@ -15,7 +15,7 @@ Some features are
   - The inputs are kept the same
   - A error message displays in the console
 
-- Google Doc Link for the challenge from Brian
+## Google Doc Link for the challenge from Brian
 
 - [Google Docs - Form Challenge Instructions](https://docs.google.com/document/d/1zC4wts9HVIxBVdAdGrbk32-JEAbQh-orMGCMZE3sKAI/edit)
 - [JSON Placeholder API](https://jsonplaceholder.typicode.com/)
