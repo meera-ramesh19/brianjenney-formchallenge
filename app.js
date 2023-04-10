@@ -2,16 +2,6 @@ const BASE_URL = 'https://jsonplaceholder.typicode.com/users';
 const searchedHistory = {};
 let storedHistory = [];
 
-const themeIcon = document.querySelector('.theme');
-
-// themeIcon.addEventListener("click", () => {
-//   document.body.classList.toggle("light");
-//   if (document.body.classList.contains("light")) {
-//     themeIcon.src = "./assets/moon.svg";
-//   } else {
-//     themeIcon.src = "./assets/sun.svg";
-//   }
-// });
 
 /**
  * DOMCONTENT LOADED
