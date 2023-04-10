@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 20px auto;
+    width: 500px;
+    border: 2px solid #aaa;
+  }
+  
+  .form-select > * {
+    padding: 10px;
+  }
+  
+  .title {
+    padding: 0 20px;
+  }
+  .email {
+    display: none;
+    margin: 0 10px;
+  }
+  .error {
+    color: red;
+  }
+  .success {
+    color: green;
+  }
+  #error {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+  #error.visible {  display: block;
+  }
+  
+  
+  #email.invalid {
+    border-color: red;
+  }
+  #email.valid {
+    border-color: green;
+  }
+  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My todo list</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <main class="container">
+    <form class="form-select" id="form-select">
+      <h1 class="title">My Happy Form</h1>
+
+      <label for="firstname">
+        <input type="text" id="firstname" name="firstname" placeholder="Firstname" required />
+      </label>
+
+      <label for="lastname">
+        <input type="text" id="lastname" name="lastname" placeholder="Lastname" required />
+      </label>
+
+      <div class="notes">
+        <textarea type="text" id="comments" name="comments" rows="3" columns="50"></textarea>
+      </div>
+
+      <label for="checkbox">Subscribe to newsletter
+        <input type="checkbox" id="checkbox">
+      </label>
+    
+      <input class="email" type="email" id="email" name="email" placeholder="enter your email"  /> 
+       <span role="alert" id="error" aria-hidden="true"> Please enter valid email </span>
+      <div>
+        <input type="submit" id="submit" name="submit" value="Submit" disabled />
+      
+      </div>
+        <p id="message"></p>
+      </form>
+  </main>
+  
+ 
+  <script src="app.js"></script>
+</body>
+
+</html>
